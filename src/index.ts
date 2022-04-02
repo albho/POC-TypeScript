@@ -21,3 +21,30 @@ employee = [
 // Union
 let pid: string | number;
 pid = '22';
+
+// Enum
+enum Direction1 {
+  Up = 'Up',
+  Down = 'Down',
+  Left = 'Left',
+  Right = 'Right',
+}
+console.log(Direction1.Left)
+
+// Objects
+type User = {
+  id: number,
+  name: string
+}
+
+const user: User = {
+  id: 1,
+  name: 'Albert'
+}
+
+// Type Assertion
+let cid: any = 1
+// let customerId: <number>cid
+let customerId = cid as number;
+customerId = 3;
+console.log(customerId);
