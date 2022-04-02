@@ -96,3 +96,11 @@ class Person {
 }
 const bert = new Person(1, 'Bert');
 console.log(bert);
+
+// Generics
+function getArray<T>(items: T[]): T[] {
+  return new Array().concat(items);
+}
+
+let numArray = getArray<number>([1, 2, 3, 4]);
+let strArray = getArray<string>(['one', 'two', 'three']);
