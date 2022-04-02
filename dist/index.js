@@ -42,3 +42,23 @@ const addNum = (x, y) => {
 };
 const answer = addNum(2, 3);
 console.log(answer);
+// no return value: void
+const log = (message) => {
+    console.log(message);
+};
+const user1 = {
+    id: 1,
+    name: 'Albert',
+};
+const add = (x, y) => x + y;
+const sub = (x, y) => x - y;
+// const cannotDoThis: MathFunc = (x: number, y:string): number => x + y;
+// Classes
+class Person {
+    constructor(id, name) {
+        this.id = id;
+        this.name = name;
+    }
+}
+const bert = new Person(1, 'Bert');
+console.log(bert);
