@@ -6,3 +6,9 @@ Code where I follow along with the [TypeScript Crash Course](https://www.youtube
 ### Terminal Commands
 - `tsc index`: compiles index.ts file into index.js
 - `tsc watch index`: continuously watch index.ts for changes
+
+### Config File Set-up
+- `tsc --init`
+- change "target": "es2016" to "target": "es6"
+- change "outDir": "./" to "outDir": "./dist"
+- change "rootDir": "./" to "rootDir": "./src"
