@@ -62,3 +62,9 @@ class Person {
 }
 const bert = new Person(1, 'Bert');
 console.log(bert);
+// Generics
+function getArray(items) {
+    return new Array().concat(items);
+}
+let numArray = getArray([1, 2, 3, 4]);
+let strArray = getArray(['one', 'two', 'three']);
