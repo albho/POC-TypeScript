@@ -48,3 +48,15 @@ let cid: any = 1
 let customerId = cid as number;
 customerId = 3;
 console.log(customerId);
+
+// Functions
+const addNum = (x: number, y: number): number => {
+  return x + y;
+}
+const answer = addNum(2, 3);
+console.log(answer)
+
+// no return value: void
+const log = (message: string | number): void => {
+  console.log(message);
+}

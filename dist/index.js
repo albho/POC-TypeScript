@@ -36,3 +36,9 @@ let cid = 1;
 let customerId = cid;
 customerId = 3;
 console.log(customerId);
+// Functions
+const addNum = (x, y) => {
+    return x + y;
+};
+const answer = addNum(2, 3);
+console.log(answer);
