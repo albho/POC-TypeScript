@@ -12,3 +12,8 @@ Code where I follow along with the [TypeScript Crash Course](https://www.youtube
 - change "target": "es2016" to "target": "es6"
 - change "outDir": "./" to "outDir": "./dist"
 - change "rootDir": "./" to "rootDir": "./src"
+
+### React
+- `npx create-react-app <app> --template typescript`
+- `npm start`
+
